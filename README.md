@@ -1,83 +1,76 @@
-# Python for Beginners
+# بايثون للمبتدئين
 
-Welcome to **Python for Beginners**! 🚀 This repository contains lessons and exercises designed to help new programmers learn Python from scratch. Whether you're completely new to coding or looking to strengthen your fundamentals, this course will guide you through the basics and beyond.
+مرحبًا بك في **بايثون للمبتدئين**! 🚀 يحتوي هذا المستودع على دروس وتمارين مصممة لمساعدة المبرمجين الجدد على تعلم لغة بايثون من البداية. سواء كنت جديدًا تمامًا في البرمجة أو ترغب في تعزيز أساسياتك، سيساعدك هذا المسار في التعرف على الأساسيات وما بعدها.
 
-## 📌 Course Overview
+## 📌 نظرة عامة على الدورة
+- مقدمة إلى بايثون
+- المتغيرات وأنواع البيانات
+- التحكم في التدفق (If-Else، الحلقات)
+- الدوال والوحدات النمطية
+- القوائم والقواميس والصفوف
+- البرمجة الكائنية (OOP)
+- التعامل مع الملفات
+- التعامل مع الأخطاء
+- العمل مع المكتبات
 
-- Introduction to Python
-- Variables and Data Types
-- Control Flow (If-Else, Loops)
-- Functions and Modules
-- Lists, Dictionaries, and Tuples
-- Object-Oriented Programming (OOP)
-- File Handling
-- Error Handling
-- Working with Libraries
+## 🛠 دليل التثبيت
+قبل البدء في استخدام بايثون، تحتاج إلى تثبيته على جهاز الكمبيوتر الخاص بك.
 
-## 🛠 Installation Guide
-
-Before getting started with Python, you need to install it on your computer.
-
-### **Windows Installation**
-
-1. Download the latest version of Python from the official website: [Python Downloads](https://www.python.org/downloads/)
-2. Run the installer and make sure to check **"Add Python to PATH"** during installation.
-3. Click "Install Now" and wait for the installation to complete.
-4. Open Command Prompt (`cmd`) and type:
+### **تثبيت بايثون على ويندوز**
+1. قم بتنزيل أحدث إصدار من بايثون من الموقع الرسمي: [Python Downloads](https://www.python.org/downloads/)
+2. قم بتشغيل المثبت وتأكد من تحديد **"Add Python to PATH"** أثناء التثبيت.
+3. انقر على "Install Now" وانتظر حتى يكتمل التثبيت.
+4. افتح موجه الأوامر (`cmd`) واكتب:
    ```sh
    python --version
    ```
-   If Python is installed correctly, it will display the installed version.
+   إذا تم التثبيت بشكل صحيح، فسيتم عرض رقم الإصدار المثبت.
 
-### **Mac Installation**
-
-1. Open **Terminal** and check if Python is already installed:
+### **تثبيت بايثون على ماك**
+1. افتح **Terminal** وتحقق مما إذا كان بايثون مثبتًا بالفعل:
    ```sh
    python3 --version
    ```
-2. If Python is not installed, download it from [Python Downloads](https://www.python.org/downloads/).
-3. Run the installer and follow the instructions.
-4. After installation, verify by running:
+2. إذا لم يكن مثبتًا، فقم بتنزيله من [Python Downloads](https://www.python.org/downloads/).
+3. قم بتشغيل المثبت واتبع التعليمات.
+4. بعد التثبيت، تحقق منه عن طريق تشغيل:
    ```sh
    python3 --version
    ```
 
-### **Alternative: Install Python via Homebrew (Mac Users)**
-
-1. Install Homebrew (if not already installed):
+### **بديل: تثبيت بايثون عبر Homebrew (لمستخدمي ماك)**
+1. قم بتثبيت Homebrew (إذا لم يكن مثبتًا بالفعل):
    ```sh
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
-2. Install Python using Homebrew:
+2. قم بتثبيت بايثون باستخدام Homebrew:
    ```sh
    brew install python
    ```
-3. Verify installation:
+3. تحقق من التثبيت:
    ```sh
    python3 --version
    ```
 
-## 🏁 Getting Started
+## 🏁 البدء
+بمجرد تثبيت بايثون، يمكنك البدء بالتعلم عن طريق تشغيل أول سكريبت.
 
-Once Python is installed, you can start learning by running your first script.
-
-1. Clone this repository:
+1. استنسخ هذا المستودع:
    ```sh
-   git clone https://github.com/NuqtaLLC/Python_Lessons.git
+   git clone https://github.com/yourusername/python-for-beginners.git
    ```
-2. Navigate to the project folder:
+2. انتقل إلى مجلد المشروع:
    ```sh
    cd python-for-beginners
    ```
-3. Run the first lesson:
+3. قم بتشغيل الدرس الأول:
    ```sh
    python3 Week1/Lesson1/Lesson1.py
    ```
-   (On Windows, use `python` instead of `python3`.)
+   (في ويندوز، استخدم `python` بدلاً من `python3`.)
 
-## ⭐ Support & Feedback
+## ⭐ الدعم والتغذية الراجعة
+إذا وجدت هذه الدورة مفيدة، قم بوضع ⭐ لهذا المستودع! لأي أسئلة، افتح مشكلة جديدة أو تواصل عبر قسم المناقشات.
 
-If you find this course helpful, give this repository a ⭐! For questions, open an issue or reach out via the discussions tab.
-
-Happy coding! 🐍
+نتمنى لك تجربة ممتعة في البرمجة! 🐍
 
